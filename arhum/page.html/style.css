@@ -1,0 +1,151 @@
+
+
+.nav-links a {
+    text-decoration: none;
+    color: #666;
+    margin: 0 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav-links a.active {
+    color: #000;
+    background: #e0ded4;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.navbar strong {
+    color: #111827;
+    font-weight: 600;
+}
+
+.logo {
+    background: linear-gradient(135deg, #34d399, #10b981);
+    color: #ffffff;
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    box-shadow: 0 4px 10px rgba(16, 185, 129, 0.3);
+}
+
+
+/* BRAND TEXT */
+.navbar strong {
+    color: #111827;
+    font-weight: 600;
+}
+
+/* LEFT PANEL */
+.left-panel {
+    background: linear-gradient(135deg, #0f3d3e, #0b2c2d);
+    color: white;
+    padding: 60px;
+    border-radius: 28px;
+    min-height: 420px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+.left-panel h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin: 15px 0;
+    line-height: 1.2;
+}
+
+.desc {
+    color: #cbd5e1;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.left-panel ul {
+    padding-left: 18px;
+}
+
+.left-panel ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* RIGHT PANEL */
+.form-panel {
+    background: #f8f6f1;
+    padding: 45px;
+    border-radius: 28px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.form-panel h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* SMALL LABEL */
+.small-text {
+    font-size: 11px;
+    letter-spacing: 1.2px;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+/* FORM */
+label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.form-control {
+    border-radius: 12px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #1abc9c;
+}
+
+/* BUTTON */
+.btn-main {
+    background: linear-gradient(90deg, #1abc9c, #16a085);
+    color: white;
+    border-radius: 30px;
+    padding: 12px;
+    font-weight: 600;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-main:hover {
+    background: linear-gradient(90deg, #16a085, #138d75);
+    transform: translateY(-2px);
+}
+
+/* SPACING */
+.container {
+    margin-top: 50px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .left-panel {
+        margin-bottom: 20px;
+        padding: 40px;
+    }
+
+    .form-panel {
+        padding: 30px;
+    }
+
+    .navbar {
+        padding: 20px;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
