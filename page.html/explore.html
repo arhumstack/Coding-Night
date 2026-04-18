@@ -1,0 +1,229 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore - HelpHub AI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="explore-page">
+
+
+    <nav class="navbar d-flex justify-content-between align-items-center px-5 mt-3">
+        <div class="d-flex align-items-center gap-2">
+            <div class="logo">H</div>
+            <strong>HelpHub AI</strong>
+        </div>
+        <div class="mx-auto nav-links">
+            <a href="dashboard.html" class="active">Home</a>
+            <a href="explore.html">Explore</a> <a href="leaderboard.html">Leaderboard</a>
+            <a href="explore.html">AI Center</a>
+        </div>
+        </div>
+        <span class="me-3 small text-muted">Live community signals</span>
+        <button class="btn btn-dark rounded-pill px-4">Join the platform</button>
+        </div>
+        </div>
+    </nav>
+    <div class="container py-4">
+        <div class="ai-header-card p-5 mb-5">
+            <p class="small fw-bold text-uppercase tracking-wider opacity-75">AI Center</p>
+            <h1 class="display-4 fw-bold text-white mb-3">See what the platform intelligence is noticing.</h1>
+            <p class="text-white opacity-75">AI-like insights summarize demand trends, helper readiness, urgency
+                signals, and request recommendations.</p>
+        </div>
+
+        <div class="row g-4 mb-5">
+            <div class="col-md-4">
+                <div class="explore-stat-card p-4">
+                    <p class="stat-label">TREND PULSE</p>
+                    <h2 class="fw-bold">Web Development</h2>
+                    <p class="text-muted small">Most common support area based on active community requests.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="explore-stat-card p-4">
+                    <p class="stat-label">URGENCY WATCH</p>
+                    <h2 class="fw-bold">2</h2>
+                    <p class="text-muted small">Requests currently flagged high priority by the urgency detector.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="explore-stat-card p-4">
+                    <p class="stat-label">MENTOR POOL</p>
+                    <h2 class="fw-bold">2</h2>
+                    <p class="text-muted small">Trusted helpers with strong response history and contribution signals.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="recommendations-container p-5">
+            <p class="small fw-bold text-success mb-2">AI RECOMMENDATIONS</p>
+            <h2 class="fw-bold mb-4">Requests needing attention</h2>
+
+            <div class="d-flex flex-column gap-3">
+                <div class="req-item p-4">
+                    <h6 class="fw-bold">Need help</h6>
+                    <p class="text-muted small">AI summary: Web Development request with high urgency. Best suited for
+                        members with relevant expertise.</p>
+                    <div class="d-flex gap-2">
+                        <span class="badge-custom bg-teal">Web Development</span>
+                        <span class="badge-custom bg-teal">High</span>
+                    </div>
+                </div>
+
+                <div class="req-item p-4">
+                    <h6 class="fw-bold">Need help making my portfolio responsive before demo day</h6>
+                    <p class="text-muted small">Responsive layout issue with a short deadline. Best helpers are frontend
+                        mentors comfortable with CSS grids and media queries.</p>
+                    <div class="d-flex gap-2">
+                        <span class="badge-custom bg-teal">Web Development</span>
+                        <span class="badge-custom bg-teal">High</span>
+                    </div>
+                </div>
+
+                <div class="req-item p-4">
+                    <h6 class="fw-bold">Looking for Figma feedback on a volunteer event poster</h6>
+                    <p class="text-muted small">A visual design critique request where feedback on hierarchy, spacing,
+                        and messaging would create the most value.</p>
+                    <div class="d-flex gap-2">
+                        <span class="badge-custom bg-green-light">Design</span>
+                        <span class="badge-custom bg-green-light">Medium</span>
+                    </div>
+                </div>
+
+                <div class="req-item p-4">
+                    <h6 class="fw-bold">Need mock interview support for internship applications</h6>
+                    <p class="text-muted small">Career coaching request focused on confidence-building, behavioral
+                        answers, and entry-level frontend interviews.</p>
+                    <div class="d-flex gap-2">
+                        <span class="badge-custom bg-green-light">Career</span>
+                        <span class="badge-custom bg-green-light">Low</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        .nav-links a {
+            text-decoration: none;
+            color: #666;
+            margin: 0 15px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .nav-links a.active {
+            color: #000;
+            background: #e0ded4;
+            padding: 5px 15px;
+            border-radius: 20px;
+        }
+
+        .navbar strong {
+            color: #111827;
+            font-weight: 600;
+        }
+
+        .logo {
+            background: linear-gradient(135deg, #34d399, #10b981);
+            color: #ffffff;
+            width: 38px;
+            height: 38px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            box-shadow: 0 4px 10px rgba(16, 185, 129, 0.3);
+        }
+
+        /* Explore Page Specific */
+        .ai-header-card {
+            background-color: #1a1d1c;
+            /* Dark blackish green */
+            border-radius: 40px;
+        }
+
+        .logo-box {
+            background: #00a896;
+            color: white;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .nav-links-small a {
+            text-decoration: none;
+            color: #666;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+
+        .active-pill {
+            background: #e0e5e2;
+            padding: 6px 15px;
+            border-radius: 20px;
+            color: #000 !important;
+        }
+
+        .explore-stat-card {
+            background: #fffdf7;
+            border-radius: 25px;
+            border: 1px solid #f0efea;
+            height: 100%;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
+        }
+
+        .stat-label {
+            font-size: 10px;
+            font-weight: 700;
+            color: #2d7a6d;
+            letter-spacing: 1px;
+        }
+
+        .recommendations-container {
+            background: #fffdf7;
+            border-radius: 35px;
+        }
+
+        .req-item {
+            background: #f9f8f3;
+            border-radius: 20px;
+            border: 1px solid transparent;
+        }
+
+        .req-item:hover {
+            border-color: #e0ded4;
+        }
+
+        .bg-teal {
+            background: #e6f4f1;
+            color: #2d7a6d;
+        }
+
+        .bg-green-light {
+            background: #f1f5f2;
+            color: #4a7a61;
+        }
+
+        .tracking-wider {
+            letter-spacing: 2px;
+        }
+    </style>
+
+</body>
+
+</html>

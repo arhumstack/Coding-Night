@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore - HelpHub AI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-cream">
+
+        <header class="d-flex justify-content-between align-items-center mb-4 px-2">
+            <div class="d-flex align-items-center gap-2">
+                <div class="logo-box">H</div>
+                <span class="fw-bold fs-5">HelpHub AI</span>
+            </div>
+            <nav class="nav-links-small">
+                <a href="dashboard.html">Dashboard</a>
+                <a href="explore.html" class="active-pill">Explore</a>
+                <a href="onboarding.html">Onboarding</a>
+                <a href="leaderboard.html">Leaderboard</a>
+                <a href="messages.html">Messages</a>
+            </nav>
+        </header>
+
+        <div class="ai-header-card p-5 mb-5 shadow-sm">
+            <p class="small text-uppercase tracking-widest opacity-50 mb-1">EXPLORE / FEED</p>
+            <h1 class="display-4 fw-bold text-white mb-3">Browse help requests with filterable community context.</h1>
+            <p class="text-white opacity-75 mb-0">Filter by category, urgency, skills, and location to surface the best
+                matches.</p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-lg-4">
+                <div class="content-card p-5 sticky-top" style="top: 20px;">
+                    <p class="small fw-bold text-success mb-2 text-uppercase">FILTERS</p>
+                    <h2 class="fw-bold mb-5">Refine the feed</h2>
+
+                    <div class="mb-5">
+                        <label class="form-label text-muted small fw-bold">Category</label>
+                        <select class="form-select custom-select">
+                            <option>All categories</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-5">
+                        <label class="form-label text-muted small fw-bold">Urgency</label>
+                        <select class="form-select custom-select">
+                            <option>All urgency levels</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-5">
+                        <label class="form-label text-muted small fw-bold">Skills</label>
+                        <div class="custom-textarea p-3">React, Figma, Git/GitHub</div>
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="form-label text-muted small fw-bold">Location</label>
+                        <div class="custom-textarea p-3">Karachi, Lahore, Remote</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8">
+                <div class="d-flex flex-column gap-3">
+
+                    <div class="content-card p-4">
+                        <div class="d-flex gap-2 mb-3">
+                            <span class="badge-pill bg-teal">Web Development</span>
+                            <span class="badge-pill bg-red">High</span>
+                            <span class="badge-pill bg-green">Solved</span>
+                        </div>
+                        <h5 class="fw-bold mb-1">Need help</h5>
+                        <p class="text-muted small mb-4">helpn needed</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <p class="mb-0 fw-bold small">Arhum Mansoor</p>
+                                <p class="extra-small text-muted mb-0">Karachi • 1 helper interested</p>
+                            </div>
+                            <button class="btn btn-white-pill">Open details</button>
+                        </div>
+                    </div>
+
+                    <div class="content-card p-4">
+                        <div class="d-flex gap-2 mb-3">
+                            <span class="badge-pill bg-teal">Web Development</span>
+                            <span class="badge-pill bg-red">High</span>
+                            <span class="badge-pill bg-green">Solved</span>
+                        </div>
+                        <h5 class="fw-bold mb-1">Need help making my portfolio responsive before demo day</h5>
+                        <p class="text-muted small mb-3">My HTML/CSS portfolio breaks on tablets and I need layout
+                            guidance before tomorrow evening.</p>
+                        <div class="d-flex gap-2 mb-4">
+                            <span class="tag-pill">HTML/CSS</span>
+                            <span class="tag-pill">Responsive</span>
+                            <span class="tag-pill">Portfolio</span>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <p class="mb-0 fw-bold small">Shayan umer</p>
+                                <p class="extra-small text-muted mb-0">Karachi • 1 helper interested</p>
+                            </div>
+                            <button class="btn btn-white-pill">Open details</button>
+                        </div>
+                    </div>
+
+                    <div class="content-card p-4">
+                        <div class="d-flex gap-2 mb-3">
+                            <span class="badge-pill bg-design">Design</span>
+                            <span class="badge-pill bg-medium">Medium</span>
+                            <span class="badge-pill bg-open">Open</span>
+                        </div>
+                        <h5 class="fw-bold mb-1">Looking for Figma feedback on a volunteer event poster</h5>
+                        <p class="text-muted small mb-3">I have a draft poster for a campus community event and want
+                            sharper hierarchy, spacing, and CTA copy.</p>
+                        <div class="d-flex gap-2 mb-4">
+                            <span class="tag-pill">Figma</span>
+                            <span class="tag-pill">Poster</span>
+                            <span class="tag-pill">Design Review</span>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <p class="mb-0 fw-bold small">Arhum Mansoor</p>
+                                <p class="extra-small text-muted mb-0">Lahore • 1 helper interested</p>
+                            </div>
+                            <button class="btn btn-white-pill">Open details</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        /* Styling as per image context */
+        :root {
+            --bg-cream: #f7f6f0;
+            --dark-slate: #24292e;
+            --teal-main: #00a896;
+        }
+
+        body.bg-cream {
+            background-color: var(--bg-cream) !important;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .ai-header-card {
+            background-color: var(--dark-slate);
+            border-radius: 40px;
+            color: white;
+        }
+
+        .content-card {
+            background: white;
+            border-radius: 35px;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        /* Navigation */
+        .logo-box {
+            background: var(--teal-main);
+            color: white;
+            width: 35px;
+            height: 35px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        .nav-links-small a {
+            text-decoration: none;
+            color: #555;
+            margin-left: 20px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .active-pill {
+            background: #e0e5e2;
+            padding: 6px 15px;
+            border-radius: 20px;
+            color: #000 !important;
+        }
+
+        /* Filter Inputs */
+        .custom-select {
+            background-color: #fcfcfc;
+            border: 1px solid #eee;
+            border-radius: 15px;
+            padding: 15px;
+            height: 60px;
+        }
+
+        .custom-textarea {
+            background-color: #fcfcfc;
+            border: 1px solid #eee;
+            border-radius: 15px;
+            min-height: 80px;
+            color: #666;
+            font-size: 14px;
+        }
+
+        /* Badge & Pills */
+        .badge-pill {
+            padding: 4px 12px;
+            border-radius: 10px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+
+        .bg-teal {
+            background: #e6f4f1;
+            color: #2d7a6d;
+        }
+
+        .bg-red {
+            background: #fee2e2;
+            color: #b91c1c;
+        }
+
+        .bg-green {
+            background: #e7f5e9;
+            color: #2f855a;
+        }
+
+        .bg-design {
+            background: #f0fdf4;
+            color: #166534;
+        }
+
+        .bg-medium {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        .bg-open {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        .tag-pill {
+            background: #f0f0f0;
+            color: #666;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 12px;
+        }
+
+        .btn-white-pill {
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            padding: 5px 20px;
+            font-size: 13px;
+            font-weight: 600;
+            background: white;
+        }
+
+        .btn-white-pill:hover {
+            background: #f8f8f8;
+        }
+
+        .extra-small {
+            font-size: 11px;
+        }
+    </style>
+</body>
+
+</html>
