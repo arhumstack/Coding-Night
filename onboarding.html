@@ -1,0 +1,685 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messages - HelpHub AI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-light-cream">
+
+
+    <nav class="d-flex justify-content-between align-items-center  mt-3 mb-5 px-5">
+        <div class="d-flex align-items-center gap-2">
+            <div class="logo">H</div>
+            <strong>HelpHub AI</strong>
+        </div>
+        <div class="mx-auto nav-links">
+            <a href="dashboard.html" class="active">Dashboard</a>
+            <a href="explore.html">Explore</a>
+            <a href="messages.html" class="active-pill">Messages</a>
+        </div>
+    </nav>
+
+    <div class="ai-header-card p-5 mb-5">
+        <p class="small text-uppercase tracking-widest opacity-50 mb-1">INTERACTION / MESSAGING</p>
+        <h1 class="display-4 fw-bold text-white mb-3">Keep support moving through direct communication.</h1>
+        <p class="text-white opacity-75 mb-0">Basic messaging gives helpers and requesters a clear follow-up path
+            once a match happens.</p>
+    </div>
+
+
+    <div class="row g-4">
+        <div class="col-lg-7">
+            <div class="content-card p-5 h-100">
+                <p class="small fw-bold text-success mb-2 text-uppercase">CONVERSATION STREAM</p>
+                <h2 class="fw-bold mb-4">Recent messages</h2>
+
+                <div class="d-flex flex-column gap-3">
+                    <div class="msg-card p-4">
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                            <h6 class="fw-bold mb-0">Arhum Mansoor → Shayan umer </h6>
+                            <span class="time-badge">09:45 AM</span>
+                        </div>
+                        <p class="text-muted small mb-0">I checked your portfolio request. Share the breakpoint
+                            screenshots and I can suggest fixes.</p>
+                    </div>
+
+                    <div class="msg-card p-4">
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                            <h6 class="fw-bold mb-0">Noman Rao → Arhum mansoor</h6>
+                            <span class="time-badge">11:10 AM</span>
+                        </div>
+                        <p class="text-muted small mb-0">Your event poster concept is solid. I would tighten the CTA
+                            and reduce the background texture.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-5">
+            <div class="content-card p-5 h-100">
+                <p class="small fw-bold text-success mb-2 text-uppercase">SEND MESSAGE</p>
+                <h2 class="fw-bold mb-4">Start a conversation</h2>
+
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label small text-muted mb-1">To</label>
+                        <select class="form-select custom-input">
+                            <option>Arhum Mansoor</option>
+                            <option>Noman Rao</option>
+                            <option>Shayan umer</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="form-label small text-muted mb-1">Message</label>
+                        <textarea class="form-control custom-input" rows="5"
+                            placeholder="Share support details, ask for files, or suggest next steps."></textarea>
+                    </div>
+
+                    <button type="button" class="btn btn-teal w-100 rounded-pill py-3 fw-bold">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <body class="bg-cream">
+
+        <div class="container py-4">
+            <div class="ai-header-card p-5 mb-5 shadow-sm">
+                <p class="small text-uppercase tracking-widest opacity-50 mb-1">LEADERBOARD / ONBOARDING</p>
+                <h1 class="display-4 fw-bold text-white mb-3">Recognize the people who keep the community moving.</h1>
+                <p class="text-white opacity-75 mb-0">Trust score, contribution count, and badges create visible
+                    momentum for reliable helpers.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-7">
+                    <div class="content-card p-5 h-100">
+                        <p class="small fw-bold text-success mb-2 text-uppercase">TOP HELPERS</p>
+                        <h2 class="fw-bold mb-4">Rankings</h2>
+
+                        <div class="d-flex flex-column gap-3">
+                            <div class="ranking-card p-4 d-flex align-items-center gap-4">
+                                <div class="avatar bg-dark-slate text-white fw-bold">HA</div>
+                                <div class="flex-grow-1">
+                                    <p class="mb-0 fw-bold">#2 Noman Rao</p>
+                                    <p class="mb-0 text-muted small">JavaScript, React, Git/GitHub</p>
+                                </div>
+                                <div class="text-end">
+                                    <p class="mb-0 fw-bold">88%</p>
+                                    <p class="mb-0 text-muted extra-small">24 contributions</p>
+                                </div>
+                            </div>
+
+                            <div class="ranking-card p-4 d-flex align-items-center gap-4">
+                                <div class="avatar bg-orange-soft text-white fw-bold">SN</div>
+                                <div class="flex-grow-1">
+                                    <p class="mb-0 fw-bold">#3 Ahmed Raza</p>
+                                    <p class="mb-0 text-muted small">Python, Data Analysis</p>
+                                </div>
+                                <div class="text-end">
+                                    <p class="mb-0 fw-bold">74%</p>
+                                    <p class="mb-0 text-muted extra-small">11 contributions</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="content-card p-5 h-100">
+                        <p class="small fw-bold text-success mb-2 text-uppercase">BADGE SYSTEM</p>
+                        <h2 class="fw-bold mb-4">Trust and achievement</h2>
+
+                        <div class="d-flex flex-column gap-4">
+                            <div class="badge-progress-item">
+                                <p class="mb-1 fw-bold">Noman Rao</p>
+                                <p class="mb-3 text-muted small">Code Rescuer • Bug Hunter</p>
+                                <div class="custom-progress">
+                                    <div class="fill bg-teal-bar" style="width: 88%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="badge-progress-item">
+                                <p class="mb-1 fw-bold">Ahmed Raza</p>
+                                <p class="mb-3 text-muted small">Community Voice</p>
+                                <div class="custom-progress">
+                                    <div class="fill bg-orange-bar" style="width: 74%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <body class="bg-cream">
+
+            <div class="container py-4">
+                <div class="ai-header-card p-5 mb-5 shadow-sm">
+                    <p class="small text-uppercase tracking-widest opacity-50 mb-1">NOTIFICATIONS</p>
+                    <h1 class="display-4 fw-bold text-white mb-3">Stay updated on requests, helpers, and trust signals.
+                    </h1>
+                </div>
+                <div class="content-card p-5">
+                    <p class="small fw-bold text-success mb-2 text-uppercase">LIVE UPDATES</p>
+                    <h2 class="fw-bold mb-4">Notification feed</h2>
+
+                    <div class="d-flex flex-column gap-2">
+                        <div class="notification-item d-flex justify-content-between align-items-center p-4">
+                            <div>
+                                <h6 class="fw-bold mb-1">"Need help" was marked as solved</h6>
+                                <p class="mb-0 text-muted small">Status • Just now</p>
+                            </div>
+                            <span class="status-btn">Unread</span>
+                        </div>
+
+                        <div class="notification-item d-flex justify-content-between align-items-center p-4">
+                            <div>
+                                <h6 class="fw-bold mb-1">Arhum Mansoor offered help on "Need help"</h6>
+                                <p class="mb-0 text-muted small">Match • Just now</p>
+                            </div>
+                            <span class="status-btn">Unread</span>
+                        </div>
+
+                        <div class="notification-item d-flex justify-content-between align-items-center p-4">
+                            <div>
+                                <h6 class="fw-bold mb-1">Your request "Need help" is now live in the community feed</h6>
+                                <p class="mb-0 text-muted small">Request • Just now</p>
+                            </div>
+                            <span class="status-btn">Unread</span>
+                        </div>
+
+                        <div class="notification-item d-flex justify-content-between align-items-center p-4">
+                            <div>
+                                <h6 class="fw-bold mb-1">AI Center detected rising demand for interview prep</h6>
+                                <p class="mb-0 text-muted small">Insight • Today</p>
+                            </div>
+                            <span class="status-btn read">Read</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <body class="bg-cream">
+
+                <div class="container py-4">
+                    <div class="ai-header-card p-5 mb-5 shadow-sm">
+                        <p class="small text-uppercase tracking-widest opacity-50 mb-1">ONBOARDING / COMMUNITY SIGNALS
+                        </p>
+                        <h1 class="display-4 fw-bold text-white mb-3">Recognize the people who keep the community
+                            moving.</h1>
+                        <p class="text-white opacity-75 mb-0">Trust score, contribution count, and badges create visible
+                            momentum for reliable helpers.</p>
+                    </div>
+                    <div class="row g-4 mb-5">
+                        <div class="col-lg-7">
+                            <div class="content-card p-5 h-100">
+                                <p class="small fw-bold text-success mb-2 text-uppercase">TOP HELPERS</p>
+                                <h2 class="fw-bold mb-4">Rankings</h2>
+                                <div class="ranking-card p-4 d-flex align-items-center gap-4 mb-3">
+                                    <div class="avatar bg-dark-slate text-white fw-bold">HA</div>
+                                    <div class="flex-grow-1">
+                                        <p class="mb-0 fw-bold">#2 Noman Rao</p>
+                                        <p class="mb-0 text-muted small">JavaScript, React, Git/GitHub</p>
+                                    </div>
+                                    <div class="text-end">
+                                        <p class="mb-0 fw-bold">88%</p>
+                                        <p class="mb-0 text-muted extra-small">24 contributions</p>
+                                    </div>
+                                </div>
+                                <div class="ranking-card p-4 d-flex align-items-center gap-4">
+                                    <div class="avatar bg-orange-soft text-white fw-bold">SN</div>
+                                    <div class="flex-grow-1">
+                                        <p class="mb-0 fw-bold">#3 Ahmed Raza</p>
+                                        <p class="mb-0 text-muted small">Python, Data Analysis</p>
+                                    </div>
+                                    <div class="text-end">
+                                        <p class="mb-0 fw-bold">74%</p>
+                                        <p class="mb-0 text-muted extra-small">11 contributions</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="content-card p-5 h-100">
+                                <p class="small fw-bold text-success mb-2 text-uppercase">BADGE SYSTEM</p>
+                                <h2 class="fw-bold mb-4">Trust and achievement</h2>
+                                <div class="badge-progress-item mb-4">
+                                    <p class="mb-1 fw-bold">Noman Rao</p>
+                                    <div class="custom-progress mb-2">
+                                        <div class="fill bg-teal-bar" style="width: 88%;"></div>
+                                    </div>
+                                    <p class="text-muted small">Code Rescuer • Bug Hunter</p>
+                                </div>
+                                <div class="badge-progress-item">
+                                    <p class="mb-1 fw-bold">Ahmed Raza</p>
+                                    <div class="custom-progress mb-2">
+                                        <div class="fill bg-orange-bar" style="width: 74%;"></div>
+                                    </div>
+                                    <p class="text-muted small">Community Voice</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ai-header-card p-5 mb-4 shadow-sm">
+                        <p class="small text-uppercase tracking-widest opacity-50 mb-1">REQUEST DETAIL</p>
+                        <div class="d-flex gap-2 mb-3">
+                            <span class="badge-custom bg-teal">Career</span>
+                            <span class="badge-custom bg-teal opacity-50">Low</span>
+                            <span class="badge-custom bg-green">Solved</span>
+                        </div>
+                        <h1 class="fw-bold text-white mb-3">Need mock interview support for internship applications</h1>
+                        <p class="text-white opacity-75">Applying to frontend internships and need someone to practice
+                            behavioral and technical questions.</p>
+                    </div>
+
+                    <div class="row g-4 mb-5">
+                        <div class="col-lg-8">
+                            <div class="content-card p-5 mb-4">
+                                <p class="small fw-bold text-success mb-2 text-uppercase">AI SUMMARY</p>
+                                <p class="mb-4">Career coaching request focused on confidence-building, behavioral
+                                    answers, and entry-level frontend interviews.</p>
+                                <div class="d-flex gap-2">
+                                    <span class="tag-pill">Interview Prep</span>
+                                    <span class="tag-pill">Career</span>
+                                    <span class="tag-pill">Frontend</span>
+                                </div>
+                            </div>
+                            <div class="content-card p-5">
+                                <p class="small fw-bold text-success mb-2 text-uppercase">ACTIONS</p>
+                                <div class="d-flex gap-3">
+                                    <button class="btn btn-teal px-4 py-2">I can help</button>
+                                    <button class="btn btn-outline-dark rounded-pill px-4 py-2">Mark as solved</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="content-card p-5">
+                                <p class="small fw-bold text-success mb-2 text-uppercase">HELPERS</p>
+                                <h6 class="fw-bold mb-4">People ready to support</h6>
+                                <div class="ranking-card p-3 d-flex align-items-center gap-3 mb-3">
+                                    <div class="avatar bg-orange-soft text-white fw-small">AK</div>
+                                    <div class="flex-grow-1">
+                                        <p class="mb-0 fw-bold small">Arhum Mansoor</p>
+                                        <p class="extra-small text-muted mb-0">Figma, UI/UX, HTML/CSS</p>
+                                    </div>
+                                    <span class="badge-custom bg-teal small">100%</span>
+                                </div>
+                                <div class="ranking-card p-3 d-flex align-items-center gap-3">
+                                    <div class="avatar bg-dark-slate text-white fw-small">HA</div>
+                                    <div class="flex-grow-1">
+                                        <p class="mb-0 fw-bold small">Noman Rao</p>
+                                        <p class="extra-small text-muted mb-0">JS, React, Git</p>
+                                    </div>
+                                    <span class="badge-custom bg-teal opacity-50 small">88%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-card p-5">
+                        <p class="small fw-bold text-success mb-2 text-uppercase">LIVE UPDATES</p>
+                        <h2 class="fw-bold mb-4">Notification feed</h2>
+                        <div class="d-flex flex-column gap-2">
+                            <div class="notification-item d-flex justify-content-between align-items-center p-4">
+                                <div>
+                                    <h6 class="fw-bold mb-1">"Need help" was marked as solved</h6>
+                                    <p class="mb-0 text-muted small">Status • Just now</p>
+                                </div>
+                                <span class="status-btn">Unread</span>
+                            </div>
+                            <div class="notification-item d-flex justify-content-between align-items-center p-4">
+                                <div>
+                                    <h6 class="fw-bold mb-1">Arhum Mansoor offered help on "Need help"</h6>
+                                    <p class="mb-0 text-muted small">Match • Just now</p>
+                                </div>
+                                <span class="status-btn">Unread</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <style>
+                    body {
+                        font-family: 'Inter', sans-serif;
+                        background-color: #f7f6f0;
+                        /* Off-white image background */
+                        color: #1a1a1a;
+                    }
+
+                    /* Navbar Customization */
+                    .nav-links a {
+                        text-decoration: none;
+                        color: #666;
+                        margin: 0 15px;
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+
+                    .nav-links a.active {
+                        color: #000;
+                        background: #e0ded4;
+                        padding: 5px 15px;
+                        border-radius: 20px;
+                    }
+
+                    .navbar strong {
+                        color: #111827;
+                        font-weight: 600;
+                    }
+
+                    .logo {
+                        background: linear-gradient(135deg, #34d399, #10b981);
+                        color: #ffffff;
+                        width: 38px;
+                        height: 38px;
+                        border-radius: 10px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-weight: 700;
+                        box-shadow: 0 4px 10px rgba(16, 185, 129, 0.3);
+                    }
+
+                    /* Messages Page Specific */
+                    /* style.css - Complete Styling */
+
+                    /* 1. Global Reset & Colors */
+                    :root {
+                        --bg-cream: #f7f6f0;
+                        /* Poore page ka off-white color */
+                        --dark-card: #0d211b;
+                        /* Hero section ka dark green/black color */
+                        --header-gray: #24292e;
+                        /* Profile header ka dark color */
+                        --teal-main: #00a896;
+                        /* Buttons aur logo ka color */
+                        --teal-light: #e6f4f1;
+                        /* Badges ka light color */
+                        --white: #ffffff;
+                    }
+
+                    body {
+                        font-family: 'Inter', sans-serif;
+                        background-color: var(--bg-cream) !important;
+                        /* Force background color */
+                        color: #1a1a1a;
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                    /* 2. Navbar Styling */
+                    .navbar {
+                        background: transparent;
+                    }
+
+                    .nav-links a {
+                        text-decoration: none;
+                        color: #666;
+                        margin: 0 15px;
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+
+                    .nav-links a.active,
+                    .active-pill {
+                        color: #000 !important;
+                        background: #e0ded4;
+                        padding: 6px 15px;
+                        border-radius: 20px;
+                    }
+
+                    /* 3. Header Cards (Dark Sections) */
+                    .feature-dark-card,
+                    .ai-header-card,
+                    .profile-header-card {
+                        background-color: var(--dark-card) !important;
+                        border-radius: 35px;
+                        color: white !important;
+                        padding: 50px;
+                    }
+
+                    /* 4. White Cards (Common for all pages) */
+                    .stat-card,
+                    .flow-card,
+                    .problem-card,
+                    .explore-stat-card,
+                    .content-card,
+                    .msg-card {
+                        background-color: var(--white) !important;
+                        border-radius: 25px;
+                        border: 1px solid rgba(0, 0, 0, 0.05);
+                        padding: 25px;
+                        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
+                    }
+
+                    /* 5. Buttons & Pills */
+                    .btn-dark {
+                        background-color: var(--dark-card) !important;
+                        border: none;
+                    }
+
+                    .btn-teal {
+                        background-color: var(--teal-main) !important;
+                        color: white !important;
+                        border-radius: 30px;
+                    }
+
+                    .tag-pill,
+                    .badge-custom {
+                        padding: 4px 12px;
+                        border-radius: 12px;
+                        font-size: 11px;
+                        font-weight: 600;
+                        display: inline-block;
+                    }
+
+                    /* Specific Badge Colors */
+                    .bg-teal {
+                        background: var(--teal-light);
+                        color: #2d7a6d;
+                    }
+
+                    .bg-red {
+                        background: #fce8e8;
+                        color: #c53030;
+                    }
+
+                    .bg-green {
+                        background: #e7f5e9;
+                        color: #2f855a;
+                    }
+
+                    /* 6. Special Elements */
+                    .logo-box {
+                        background: var(--teal-main);
+                        color: white;
+                        width: 35px;
+                        height: 35px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 10px;
+                        font-weight: bold;
+                    }
+
+                    .time-badge {
+                        background-color: var(--teal-light);
+                        color: #2d7a6d;
+                        width: 55px;
+                        height: 55px;
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 11px;
+                    }
+
+                    /* 7. Forms */
+                    .custom-input {
+                        background: #fff;
+                        border: 1px solid #eee;
+                        border-radius: 12px;
+                        padding: 12px;
+                    }
+
+                    /* Onboarding Specific Styles */
+                    .bg-cream {
+                        background-color: #f7f6f0;
+                    }
+
+                    .bg-dark-slate {
+                        background-color: #24292e;
+                    }
+
+                    .bg-orange-soft {
+                        background-color: #f36e21;
+                    }
+
+                    .ranking-card {
+                        background-color: #fffdf7;
+                        border: 1px solid rgba(0, 0, 0, 0.03);
+                        border-radius: 20px;
+                        transition: transform 0.2s;
+                    }
+
+                    .avatar {
+                        width: 55px;
+                        height: 55px;
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-shrink: 0;
+                    }
+
+                    .custom-progress {
+                        width: 100%;
+                        height: 8px;
+                        background-color: #e0ded4;
+                        border-radius: 10px;
+                        overflow: hidden;
+                    }
+
+                    .custom-progress .fill {
+                        height: 100%;
+                    }
+
+                    .bg-teal-bar {
+                        background-color: #2d7a6d;
+                    }
+
+                    .bg-orange-bar {
+                        background-color: #f36e21;
+                    }
+
+                    .extra-small {
+                        font-size: 11px;
+                    }
+
+                    /* Notification Item Styling */
+                    .notification-item {
+                        background-color: #ffffff;
+                        border: 1px solid rgba(0, 0, 0, 0.05);
+                        border-radius: 15px;
+                        transition: background 0.2s;
+                    }
+
+                    .notification-item:hover {
+                        background-color: #f9f8f3;
+                    }
+
+                    .status-btn {
+                        background: #ffffff;
+                        border: 1px solid #ddd;
+                        padding: 6px 15px;
+                        border-radius: 20px;
+                        font-size: 12px;
+                        font-weight: 600;
+                        color: #333;
+                    }
+
+                    .status-btn.read {
+                        opacity: 0.5;
+                        background: #f1f1f1;
+                    }
+
+                    /* Onboarding Navigation fix */
+                    .active-pill {
+                        background: #d1dad5 !important;
+                    }
+
+                    /* Custom utility for scrolling and matching images */
+                    .bg-cream {
+                        background-color: #f7f6f0 !important;
+                    }
+
+                    .ai-header-card {
+                        background-color: #24292e;
+                        border-radius: 40px;
+                    }
+
+                    .content-card {
+                        background: white;
+                        border-radius: 35px;
+                        border: 1px solid rgba(0, 0, 0, 0.05);
+                    }
+
+                    .ranking-card,
+                    .notification-item {
+                        background: #f9f8f3;
+                        border-radius: 20px;
+                        border: 1px solid rgba(0, 0, 0, 0.02);
+                    }
+
+                    .tag-pill {
+                        background: #e6f4f1;
+                        color: #2d7a6d;
+                        padding: 6px 15px;
+                        border-radius: 20px;
+                        font-size: 12px;
+                        font-weight: 600;
+                    }
+
+                    .btn-teal {
+                        background-color: #00a896;
+                        border: none;
+                        color: white;
+                        border-radius: 30px;
+                    }
+
+                    .badge-custom {
+                        padding: 4px 12px;
+                        border-radius: 12px;
+                        font-size: 11px;
+                        font-weight: 700;
+                    }
+
+                    .bg-teal {
+                        background: #e6f4f1;
+                        color: #2d7a6d;
+                    }
+
+                    .bg-green {
+                        background: #e7f5e9;
+                        color: #2f855a;
+                    }
+
+                    .extra-small {
+                        font-size: 10px;
+                    }
+                </style>
+
+            </body>
+
+</html>
